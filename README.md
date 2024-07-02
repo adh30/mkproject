@@ -13,7 +13,7 @@ The purpose of mkproject is to create a standard directory structure and some fi
 
 ## Requirements and use
 
-This package requires [Stata](https://www.stata.com) version 15 or higher. The easiest way to install this is using E. F. Haghish's [github](https://haghish.github.io/github/) command. After you have installed that, you can install `mkproject` by typing in Stata: `github install maartenteaches/mkproject`. Alternatively, `mkproject` can be installed without the `github` command by typing in Stata `net install mkproject, from("https://raw.githubusercontent.com/maartenteaches/mkproject/main")`.
+This package requires [Stata](https://www.stata.com) version 15 or higher. The easiest way to install this is using E. F. Haghish's [github](https://haghish.github.io/github/) command. After you have installed that, you can install `mkproject` by typing in Stata: `github install adh30/mkproject`. Alternatively, `mkproject` can be installed without the `github` command by typing in Stata `net install mkproject, from("https://raw.githubusercontent.com/adh30/mkproject/main")`.
 
 Author
 ------
@@ -21,3 +21,7 @@ Author
 **Maarten L. Buis**  
 University of Konstanz  
 maarten.buis@uni-kn  
+
+**Alun Hughes**
+UCL
+alun.hughes@ucl.ac.uk
