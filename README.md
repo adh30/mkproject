@@ -1,4 +1,4 @@
-_v. v2.0.0_  
+_v. v2.0.1_  
 
 `mkproject` : Creates project folder with some boilerplate code
 ===============================================================
@@ -21,6 +21,9 @@ Author
 **Maarten L. Buis**  
 University of Konstanz  
 maarten.buis@uni-kn  
+
+Modifications by
+------
 
 **Alun Hughes**
 UCL
