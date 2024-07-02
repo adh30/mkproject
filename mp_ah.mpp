@@ -1,0 +1,53 @@
+<header>
+<mkproject> project
+<version> 1.0.0
+<label> based on (Long 2009)
+<description>
+{pstd} 
+This template creates a project folder for a medium sized research project. It
+is loosely based on J. Scott Long (2009) The workflow of data analysis using Stata.
+College Station, TX: Stata Press.
+ 
+{pstd} 
+The work folder is where you do most of the work. You can change its content freely.
+ 
+{pstd} 
+The posted folder is there to store snapshots of your project. A snapshot is just
+a copy of the content of the work folder. You should only add to the posted folder, 
+but never change files stored in it. That way you can return to that state if you 
+need to. For example, you presented your work at a conference and afterwards 
+continued to work on it. After a while someone comes up to you and asks you how 
+you did something for that presentation. If you have taken a snapshot of your 
+project just before the presentation, you can return to that state and
+answer the question. If not ...
+</description>
+</header>
+
+<body> -------------------------------------------------------------------------
+<dir> documents
+<dir> posted
+<dir> posted/data
+<dir> posted/do
+<dir> posted/docx
+<dir> posted/figures
+<dir> posted/logfiles
+<dir> posted/stsem
+<dir> work
+<dir> work/data
+<dir> work/do
+<dir> work/docx
+<dir> work/figures
+<dir> work/logfiles
+<dir> work/stsem
+
+<file> rlog documents/research_log.md
+<file> main work/do/<abbrev>_main.do
+<file> dta  work/do/<abbrev>_clean01.do
+<file> ana  work/do/<abbrev>_analysis01.do
+
+<cmd> qui cd work/do
+<cmd> projmanager "<abbrev>.stpr"
+<cmd> doedit "<abbrev>_main.do"
+<cmd> doedit "<abbrev>_clean01.do"
+<cmd> doedit "<abbrev>_analysis01.do"
+</body> ------------------------------------------------------------------------
