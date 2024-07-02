@@ -26,5 +26,5 @@ Modifications by
 ------
 
 **Alun Hughes**
-UCL
+University College London
 alun.hughes@ucl.ac.uk
